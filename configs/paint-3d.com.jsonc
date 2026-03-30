@@ -1,0 +1,122 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "paint-3d.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23321472143",
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "oms.reviq.rate": 0,
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "smilewanted.reviq.rate": 0,
+      "seedtag.publisherId": "0056-6224-01",
+      "kueezrtb.cId": "691992ec446aa458efe8d9f8"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "paint-3d.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 16455,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150549,
+      "geniee.zoneId": 1607974
+    },
+    "left-rail-2": {
+      "gamAdUnit": "paint-3d.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 16456,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150549,
+      "geniee.zoneId": 1607977
+    },
+    "right-rail-1": {
+      "gamAdUnit": "paint-3d.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 16457,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150549,
+      "geniee.zoneId": 1607975
+    },
+    "right-rail-2": {
+      "gamAdUnit": "paint-3d.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 16458,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150550,
+      "geniee.zoneId": 1607978
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "paint-3d.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "pgamssp.placementId": 16459,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150550,
+      "geniee.zoneId": 1607979
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "paint-3d.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "pgamssp.placementId": 16460,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150550,
+      "geniee.zoneId": 1607980
+    },
+    "anchor": {
+      "gamAdUnit": "paint-3d.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 16461,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37150547,
+      "geniee.zoneId": 1607981
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "paint-3d.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "pgamssp.placementId": 16462,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37150548,
+      "geniee.zoneId": 1607976
+    },
+    "video": {
+      "gamAdUnit": "paint-3d.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2587",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13220"
+    }
+  }
+}
+
+// Generated for: paint-3d.com

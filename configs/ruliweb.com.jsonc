@@ -1,0 +1,107 @@
+{
+    "extends": "(reviq)",
+    "plugins": {
+        "stickyUnit": {
+            "adUnit": "anchor"
+        }
+    },
+    "tags": {
+        ".*": {
+            "gamPublisher": ""
+        },
+        "right-rail-1": {
+            "gamAdUnit": "ruliweb.com/right-rail-1",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "appnexus.placement_id": 36591223,
+            "nextMillennium.placement_id": 77877,
+            "pgamssp.placementId": 14717,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36762008
+        },
+        "left-rail-1": {
+            "gamAdUnit": "ruliweb.com/left-rail-1",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "appnexus.placement_id": 36591226,
+            "nextMillennium.placement_id": 77880,
+            "pgamssp.placementId": 14720,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36762009
+        },
+        "video-float": {
+            "gamAdUnit": "ruliweb.com/video-float",
+            "size": "400x225",
+            "nextMillennium.placement_id": 77885,
+            "seedtag.placement": "inStream",
+            "seedtag.adUnitId": 36762010
+        },
+        "anchor": {
+            "gamAdUnit": "ruliweb.com/anchor",
+            "size": "1000x100",
+            "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+            "appnexus.placement_id": 36591230,
+            "nextMillennium.placement_id": 77882,
+            "pgamssp.placementId": 14722,
+            "seedtag.placement": "inScreen",
+            "seedtag.adUnitId": 36762006
+        },
+        "right-skyscraper": {
+            "gamAdUnit": "ruliweb.com/right-skyscraper",
+            "size": "160x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "appnexus.placement_id": 36591225,
+            "nextMillennium.placement_id": 77879,
+            "pgamssp.placementId": 14719,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36762008
+        },
+        "left-rail-2": {
+            "gamAdUnit": "ruliweb.com/left-rail-2",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "appnexus.placement_id": 36591227,
+            "nextMillennium.placement_id": 77881,
+            "pgamssp.placementId": 14721,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36762009
+        },
+        "mobile-top": {
+            "gamAdUnit": "ruliweb.com/mobile-top",
+            "size": "320x50",
+            "adyoulike.placement": "1d3e329127373f26c295e2e844da7c32",
+            "appnexus.placement_id": 36591229,
+            "nextMillennium.placement_id": 77883,
+            "pgamssp.placementId": 14723,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36762009
+        },
+        "mobile-inline-(.*)": {
+            "gamAdUnit": "ruliweb.com/mobile-inline",
+            "size": "300x250",
+            "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+            "appnexus.placement_id": 36591228,
+            "nextMillennium.placement_id": 77884,
+            "pgamssp.placementId": 14724,
+            "seedtag.placement": "inArticle",
+            "seedtag.adUnitId": 36762007
+        },
+        "right-rail-2": {
+            "gamAdUnit": "ruliweb.com/right-rail-2",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "appnexus.placement_id": 36591224,
+            "nextMillennium.placement_id": 77878,
+            "pgamssp.placementId": 14718,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36762008
+        },
+        "billboard": {
+            "gamAdUnit": "ruliweb.com/billboard",
+            "size": "970x250",
+            "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+            "appnexus.placement_id": 36591230,
+            "nextMillennium.placement_id": 56867
+        }
+    }
+}

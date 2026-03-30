@@ -1,0 +1,98 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "puzzmallow.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23334778486",
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "kueezrtb.cId": "696508dcbb4a8d5607ac8890"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "puzzmallow.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 17028
+    },
+    "left-rail-2": {
+      "gamAdUnit": "puzzmallow.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 17030
+    },
+    "right-rail-1": {
+      "gamAdUnit": "puzzmallow.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 17029
+    },
+    "right-rail-2": {
+      "gamAdUnit": "puzzmallow.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 17031
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "puzzmallow.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "pgamssp.placementId": 17032
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "puzzmallow.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "pgamssp.placementId": 17033
+    },
+    "anchor": {
+      "gamAdUnit": "puzzmallow.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 17034
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "puzzmallow.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "pgamssp.placementId": 17035
+    },
+    "interstitial": {
+      "gamAdUnit": "puzzmallow.com/interstitial",
+      "size": "",
+      "pgamssp.placementId": 17036
+    },
+    "video": {
+      "gamAdUnit": "puzzmallow.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2605",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13391"
+    }
+  }
+}
+
+// Generated for: puzzmallow.com

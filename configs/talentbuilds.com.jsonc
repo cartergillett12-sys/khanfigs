@@ -1,0 +1,96 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "talentbuilds.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23334778486",
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "optima.reviq.rate": 0,
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "smilewanted.reviq.rate": 0,
+      "kueezrtb.cId": "6914338694ecdd789ddb5d8f"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "talentbuilds.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 16685
+    },
+    "left-rail-2": {
+      "gamAdUnit": "talentbuilds.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 16686
+    },
+    "right-rail-1": {
+      "gamAdUnit": "talentbuilds.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 16687
+    },
+    "right-rail-2": {
+      "gamAdUnit": "talentbuilds.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 16688
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "talentbuilds.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "pgamssp.placementId": 16689
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "talentbuilds.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "pgamssp.placementId": 16690
+    },
+    "anchor": {
+      "gamAdUnit": "talentbuilds.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 16692
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "talentbuilds.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "pgamssp.placementId": 16691
+    },
+    "video": {
+      "gamAdUnit": "talentbuilds.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2611",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13447"
+    }
+  }
+}
+
+// Generated for: talentbuilds.com

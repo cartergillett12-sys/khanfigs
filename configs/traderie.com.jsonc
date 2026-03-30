@@ -1,0 +1,151 @@
+{
+    "extends": "(reviq)",
+    "plugins": {
+        "stickyUnit": {
+            "adUnit": "anchor"
+        }
+    },
+    "tags": {
+        ".*": {
+            "gamPublisher": ""
+        },
+        "right-rail-1": {
+            "gamAdUnit": "traderie.com/right-rail-1",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "nextMillennium.placement_id": 65935,
+            "pgamssp.placementId": 7014
+        },
+        "leaderboard-(.*)": {
+            "gamAdUnit": "traderie.com/leaderboard",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "nextMillennium.placement_id": 77202,
+            "pgamssp.placementId": 7014
+        },
+        "right-rail-3": {
+            "gamAdUnit": "traderie.com/right-rail-3",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "nextMillennium.placement_id": 77199,
+            "pgamssp.placementId": 7014
+        },
+        "listing-btf": {
+            "gamAdUnit": "traderie.com/listing-btf",
+            "size": "728x250",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "nextMillennium.placement_id": 65950,
+            "pgamssp.placementId": 7014
+        },
+        "left-rail-2": {
+            "gamAdUnit": "traderie.com/left-rail-2",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "nextMillennium.placement_id": 65938,
+            "pgamssp.placementId": 7014
+        },
+        "right-rail-small-1": {
+            "gamAdUnit": "traderie.com/right-rail-small-1",
+            "size": "160x250",
+            "nextMillennium.placement_id": 65939,
+            "pgamssp.placementId": 7014
+        },
+        "billboard": {
+            "gamAdUnit": "traderie.com/billboard",
+            "size": "970x250",
+            "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+            "nextMillennium.placement_id": 65943,
+            "pgamssp.placementId": 7014
+        },
+        "right-rail-small-2": {
+            "gamAdUnit": "traderie.com/right-rail-small-2",
+            "size": "160x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "nextMillennium.placement_id": 65940,
+            "pgamssp.placementId": 7014
+        },
+        "btf-(.*)": {
+            "gamAdUnit": "traderie.com/btf",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "nextMillennium.placement_id": 77204,
+            "pgamssp.placementId": 7014
+        },
+        "anchor": {
+            "gamAdUnit": "traderie.com/anchor",
+            "size": "1000x100",
+            "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+            "nextMillennium.placement_id": 65966,
+            "pgamssp.placementId": 7014
+        },
+        "inline-leaderboard-(.*)": {
+            "gamAdUnit": "traderie.com/inline-leaderboard",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "nextMillennium.placement_id": 77203,
+            "pgamssp.placementId": 7014
+        },
+        "billboard-btf": {
+            "gamAdUnit": "traderie.com/billboard-btf",
+            "size": "728x90",
+            "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+            "nextMillennium.placement_id": 65944,
+            "pgamssp.placementId": 7014
+        },
+        "left-rail-small-1": {
+            "gamAdUnit": "traderie.com/left-rail-small-1",
+            "size": "160x250",
+            "nextMillennium.placement_id": 65941,
+            "pgamssp.placementId": 7014
+        },
+        "video": {
+            "gamAdUnit": "traderie.com/video",
+            "size": "400x225",
+            "registrar": "video-aio-anyclip",
+            "video-aio-anyclip.pubname": "",
+            "video-aio-anyclip.widgetname": ""
+        },
+        "left-rail-3": {
+            "gamAdUnit": "traderie.com/left-rail-3",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "nextMillennium.placement_id": 77200,
+            "pgamssp.placementId": 7014
+        },
+        "mobile-unit-(.*)": {
+            "gamAdUnit": "traderie.com/mobile-unit",
+            "size": "300x250",
+            "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+            "nextMillennium.placement_id": 77205,
+            "pgamssp.placementId": 7014
+        },
+        "listing-rail": {
+            "gamAdUnit": "traderie.com/listing-rail",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "nextMillennium.placement_id": 65951,
+            "pgamssp.placementId": 7014
+        },
+        "left-rail-1": {
+            "gamAdUnit": "traderie.com/left-rail-1",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "nextMillennium.placement_id": 65937,
+            "pgamssp.placementId": 7014
+        },
+        "product-rail": {
+            "gamAdUnit": "traderie.com/product-rail",
+            "size": "160x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "nextMillennium.placement_id": 77201,
+            "pgamssp.placementId": 7014
+        },
+        "right-rail-2": {
+            "gamAdUnit": "traderie.com/right-rail-2",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "nextMillennium.placement_id": 77198,
+            "pgamssp.placementId": 7014
+        }
+    }
+}

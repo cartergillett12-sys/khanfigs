@@ -1,0 +1,119 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "routinehub.co"
+    },
+    "registrars/video-aio-anyclip": true,
+    "scripts": {
+      "rtbhouse": "https://cdn.r9x.in/prod-global-9298809.js"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23123017329",
+      "appnexus.reviq.rate": 1,
+      "kargo.reviq.rate": 1,
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "richaudience.reviq.rate": 1,
+      "seedtag.reviq.rate": 1,
+      "seedtag.publisherId": "1490-4791-01",
+      "kueezrtb.cId": "688731b912b170b50866fba8"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "routinehub.co/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489920,
+      "kargo.placementId": "_lAu74et2aj",
+      "pgamssp.placementId": 14396,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125481
+    },
+    "billboard": {
+      "gamAdUnit": "routinehub.co/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "appnexus.placement_id": 36489920,
+      "kargo.placementId": "_xQMvgAHPm6",
+      "pgamssp.placementId": 14400,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125481
+    },
+    "left-rail-2": {
+      "gamAdUnit": "routinehub.co/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489920,
+      "kargo.placementId": "_urGPOGwTyr",
+      "pgamssp.placementId": 14397,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125482
+    },
+    "right-rail-1": {
+      "gamAdUnit": "routinehub.co/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489920,
+      "kargo.placementId": "_lAu74et2aj",
+      "pgamssp.placementId": 14398,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125482
+    },
+    "anchor": {
+      "gamAdUnit": "routinehub.co/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36489920,
+      "pgamssp.placementId": 14401,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37125479
+    },
+    "mobile-inline-(.*)": {
+      "gamAdUnit": "routinehub.co/mobile-inline",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36489920,
+      "kargo.placementId": "_cM8jjEBBdn",
+      "pgamssp.placementId": 14402,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37125480
+    },
+    "interstitial": {
+      "gamAdUnit": "routinehub.co/interstitial",
+      "size": "0x0",
+      "pgamssp.placementId": 14403
+    },
+    "right-rail-2": {
+      "gamAdUnit": "routinehub.co/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489920,
+      "kargo.placementId": "_urGPOGwTyr",
+      "pgamssp.placementId": 14399,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125482
+    }
+  }
+}
+
+// Generated for: routinehub.co

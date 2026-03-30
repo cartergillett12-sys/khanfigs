@@ -1,0 +1,83 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "right-rail-1": {
+      "gamAdUnit": "tetr.io/right-rail-1",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489931,
+      "kargo.placementId": "_oU2Pk9o5Yb",
+      "nextMillennium.placement_id": 77180,
+      "pgamssp.placementId": 14391,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566950,
+      "triplelift.inventoryCode": "RevIQ_tetr_io_right-rail-1_300x600_PBc2s"
+    },
+    "left-rail-2": {
+      "gamAdUnit": "tetr.io/left-rail-2",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489931,
+      "kargo.placementId": "_ajbu8HSA7y",
+      "nextMillennium.placement_id": 77182,
+      "pgamssp.placementId": 14393,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566950,
+      "triplelift.inventoryCode": "RevIQ_tetr_io_left-rail-2_300x250_PBc2s"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "tetr.io/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489931,
+      "kargo.placementId": "_ajbu8HSA7y",
+      "nextMillennium.placement_id": 77181,
+      "pgamssp.placementId": 14392,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566950,
+      "triplelift.inventoryCode": "RevIQ_tetr_io_left-rail-1_300x250_PBc2s"
+    },
+    "video-top": {
+      "gamAdUnit": "tetr.io/video-top",
+      "size": "400x225",
+      "appnexus.placement_id": 36489931,
+      "nextMillennium.placement_id": 77184
+    },
+    "anchor": {
+      "gamAdUnit": "tetr.io/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36489931,
+      "nextMillennium.placement_id": 77183,
+      "pgamssp.placementId": 14394,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36566949,
+      "triplelift.inventoryCode": "RevIQ_tetr_io_anchor_1000x100_PBc2s"
+    }
+  }
+}
+
+// Generated for: tetr.io

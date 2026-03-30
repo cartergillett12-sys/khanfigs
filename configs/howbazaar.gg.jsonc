@@ -1,0 +1,119 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "howbazaar.gg"
+    },
+    "registrars/video-aio-anyclip": true,
+    "scripts": {
+      "rtbhouse": "https://cdn.r9x.in/prod-global-9298809.js"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23288019926",
+      "appnexus.reviq.rate": 1,
+      "kargo.reviq.rate": 1,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "smilewanted.reviq.rate": 0,
+      "seedtag.publisherId": "6500-2611-01",
+      "kueezrtb.cId": "67d15048fada5d379f11fa3f"
+    },
+    "right-rail-1": {
+      "gamAdUnit": "howbazaar.gg/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_dlx03cqabQ",
+      "nextMillennium.placement_id": 77116,
+      "pgamssp.placementId": 14382,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380434
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "howbazaar.gg/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "kargo.placementId": "_z06eplZsHF",
+      "nextMillennium.placement_id": 77123,
+      "pgamssp.placementId": 14382
+    },
+    "left-rail-1": {
+      "gamAdUnit": "howbazaar.gg/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_dlx03cqabQ",
+      "nextMillennium.placement_id": 77118,
+      "pgamssp.placementId": 14382,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380433
+    },
+    "anchor": {
+      "gamAdUnit": "howbazaar.gg/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 77121,
+      "pgamssp.placementId": 14382,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36380432
+    },
+    "right-rail-2": {
+      "gamAdUnit": "howbazaar.gg/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_blMZq9rMJ0",
+      "nextMillennium.placement_id": 77117,
+      "pgamssp.placementId": 14382,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380434
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "howbazaar.gg/leaderboard",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_z06eplZsHF",
+      "nextMillennium.placement_id": 77122,
+      "pgamssp.placementId": 14382
+    },
+    "billboard": {
+      "gamAdUnit": "howbazaar.gg/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "kargo.placementId": "_rVCWfW92n4",
+      "nextMillennium.placement_id": 77120,
+      "pgamssp.placementId": 14382,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380433
+    },
+    "left-rail-2": {
+      "gamAdUnit": "howbazaar.gg/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_blMZq9rMJ0",
+      "nextMillennium.placement_id": 77119,
+      "pgamssp.placementId": 14382,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380433
+    }
+  }
+}
+
+// Generated for: howbazaar.gg

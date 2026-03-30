@@ -1,0 +1,101 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23334778486",
+      "richaudience.reviq.rate": 1,
+      "kueezrtb.cId": "698090fc64ce68e48159abd6"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "lolalytics.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "nextMillennium.placement_id": 84915,
+      "pgamssp.placementId": 18509
+    },
+    "left-rail-2": {
+      "gamAdUnit": "lolalytics.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "nextMillennium.placement_id": 84917,
+      "pgamssp.placementId": 18511
+    },
+    "right-rail-1": {
+      "gamAdUnit": "lolalytics.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "nextMillennium.placement_id": 84916,
+      "pgamssp.placementId": 18510
+    },
+    "right-rail-2": {
+      "gamAdUnit": "lolalytics.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "nextMillennium.placement_id": 84919,
+      "pgamssp.placementId": 18513
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "lolalytics.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "nextMillennium.placement_id": 84918,
+      "pgamssp.placementId": 18512
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "lolalytics.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "nextMillennium.placement_id": 84920,
+      "pgamssp.placementId": 18514
+    },
+    "anchor": {
+      "gamAdUnit": "lolalytics.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 84921,
+      "pgamssp.placementId": 18515
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "lolalytics.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "nextMillennium.placement_id": 84922,
+      "pgamssp.placementId": 18516
+    },
+    "interstitial": {
+      "gamAdUnit": "lolalytics.com/interstitial",
+      "size": "",
+      "nextMillennium.placement_id": 84924,
+      "pgamssp.placementId": 18518
+    },
+    "video": {
+      "gamAdUnit": "lolalytics.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "",
+      "video-aio-anyclip.widgetname": ""
+    }
+  }
+}
+
+// Generated for: lolalytics.com

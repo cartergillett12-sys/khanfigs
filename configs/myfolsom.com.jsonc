@@ -1,0 +1,119 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "myfolsom.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23309898973",
+      "appnexus.reviq.rate": 1,
+      "kargo.reviq.rate": 1,
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "oms.reviq.rate": 0,
+      "richaudience.reviq.rate": 1,
+      "seedtag.reviq.rate": 1,
+      "seedtag.publisherId": "9776-2524-01",
+      "kueezrtb.cId": "688731712e262ed416629936"
+    },
+    "right-rail-1": {
+      "gamAdUnit": "myfolsom.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489906,
+      "kargo.placementId": "_lE69eXnLu2",
+      "pgamssp.placementId": 14425,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112777
+    },
+    "video": {
+      "gamAdUnit": "myfolsom.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2550",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M12986"
+    },
+    "right-rail-2": {
+      "gamAdUnit": "myfolsom.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489906,
+      "kargo.placementId": "_hnhgc0Si5V",
+      "pgamssp.placementId": 14426,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112777
+    },
+    "left-rail-2": {
+      "gamAdUnit": "myfolsom.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489906,
+      "kargo.placementId": "_hnhgc0Si5V",
+      "pgamssp.placementId": 14428,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112778
+    },
+    "anchor": {
+      "gamAdUnit": "myfolsom.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36489906,
+      "pgamssp.placementId": 14430,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37112775
+    },
+    "billboard": {
+      "gamAdUnit": "myfolsom.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "appnexus.placement_id": 36489906,
+      "kargo.placementId": "_qOkE73Dk2s",
+      "pgamssp.placementId": 14429,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112778
+    },
+    "left-rail-1": {
+      "gamAdUnit": "myfolsom.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489906,
+      "kargo.placementId": "_lE69eXnLu2",
+      "pgamssp.placementId": 14427,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112779
+    },
+    "mobile-inline-(.*)": {
+      "gamAdUnit": "myfolsom.com/mobile-inline",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36489906,
+      "kargo.placementId": "_iwMs3s6v3q",
+      "pgamssp.placementId": 14431,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37112776
+    }
+  }
+}
+
+// Generated for: myfolsom.com

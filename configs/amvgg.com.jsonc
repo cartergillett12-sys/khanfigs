@@ -1,0 +1,108 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "amvgg.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "scripts": {
+      "rtbhouse": "https://cdn.r9x.in/prod-global-9298809.js"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23318207002",
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "smilewanted.reviq.rate": 0,
+      "seedtag.publisherId": "2177-0869-01",
+      "kueezrtb.cId": "691993a7446aa458efe8da24"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "amvgg.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "nextMillennium.placement_id": 82375,
+      "pgamssp.placementId": 16473
+    },
+    "left-rail-2": {
+      "gamAdUnit": "amvgg.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "nextMillennium.placement_id": 82376,
+      "pgamssp.placementId": 16474
+    },
+    "right-rail-1": {
+      "gamAdUnit": "amvgg.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "nextMillennium.placement_id": 82377,
+      "pgamssp.placementId": 16475
+    },
+    "right-rail-2": {
+      "gamAdUnit": "amvgg.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "nextMillennium.placement_id": 82378,
+      "pgamssp.placementId": 16476
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "amvgg.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "nextMillennium.placement_id": 82379,
+      "pgamssp.placementId": 16477
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "amvgg.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "nextMillennium.placement_id": 82380,
+      "pgamssp.placementId": 16478
+    },
+    "anchor": {
+      "gamAdUnit": "amvgg.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 82381,
+      "pgamssp.placementId": 16479,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36762011
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "amvgg.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "nextMillennium.placement_id": 82382,
+      "pgamssp.placementId": 16480
+    },
+    "video": {
+      "gamAdUnit": "amvgg.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2558",
+      "video-aio-anyclip.widgetname": "import { useEffect } from \"react\";  function LrePlayer() {   useEffect(() => {     const script = document.createElement(\"script\");     script.src = \"https://player.anyclip.com/anyclip-widget/lre-widget/prod/v1/src/lre.js\";     script.setAttribute(\"pubname\", \"2558\");     script.setAttribute(\"widgetname\", \"001Te000004ZYO7IAO_M13035\");     script.async = true;     document.body.appendChild(script);      return () => {       document.body.removeChild(script); // Cleanup on unmount     };   }, []);    return <div>LrePlayer</div>; }"
+    }
+  }
+}
+
+// Generated for: amvgg.com

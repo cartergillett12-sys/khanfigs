@@ -1,0 +1,84 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {},
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "right-rail-1": {
+      "gamAdUnit": "tfthandbook.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_bND0ZRKSPI",
+      "nextMillennium.placement_id": 58294,
+      "pgamssp.placementId": 2761,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566953,
+      "triplelift.inventoryCode": "RevIQ_tfthandbook-com_right-rail-1_300x250_PBc2s"
+    },
+    "anchor-new": {
+      "gamAdUnit": "tfthandbook.com/anchor-new",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 77186,
+      "pgamssp.placementId": 2763,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36566952,
+      "triplelift.inventoryCode": "RevIQ_tfthandbook-com_anchor_hdx_PBc2s"
+    },
+    "right-rail-2": {
+      "gamAdUnit": "tfthandbook.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_aiYSWU4mH1",
+      "nextMillennium.placement_id": 58295,
+      "pgamssp.placementId": 2760,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566953,
+      "triplelift.inventoryCode": "RevIQ_tfthandbook-com_right-rail-2_300x600_PBc2s"
+    },
+    "video-floating": {
+      "gamAdUnit": "tfthandbook.com/video-floating",
+      "size": "400x225",
+      "nextMillennium.placement_id": 77187
+    },
+    "left-rail-1": {
+      "gamAdUnit": "tfthandbook.com/left-rail-1",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_aiYSWU4mH1",
+      "nextMillennium.placement_id": 58294,
+      "pgamssp.placementId": 2760,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566953,
+      "triplelift.inventoryCode": "RevIQ_tfthandbook-com_left-rail-1_300x600_PBc2s"
+    },
+    "left-rail-2": {
+      "gamAdUnit": "tfthandbook.com/left-rail-2",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_bND0ZRKSPI",
+      "nextMillennium.placement_id": 77185,
+      "pgamssp.placementId": 2761,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566953
+    }
+  }
+}
+
+// Generated for: tfthandbook.com

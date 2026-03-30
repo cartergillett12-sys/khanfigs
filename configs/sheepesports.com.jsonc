@@ -1,0 +1,99 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "sheepesports.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23003611823",
+      "richaudience.reviq.rate": 0,
+      "kueezrtb.cId": "693ab53157d5d755ed9a6980"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "sheepesports.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "nextMillennium.placement_id": 83064,
+      "pgamssp.placementId": 16694
+    },
+    "left-rail-2": {
+      "gamAdUnit": "sheepesports.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "nextMillennium.placement_id": 83066,
+      "pgamssp.placementId": 16696
+    },
+    "right-rail-1": {
+      "gamAdUnit": "sheepesports.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "nextMillennium.placement_id": 83065,
+      "pgamssp.placementId": 16695
+    },
+    "right-rail-2": {
+      "gamAdUnit": "sheepesports.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "nextMillennium.placement_id": 83067,
+      "pgamssp.placementId": 16697
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "sheepesports.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "nextMillennium.placement_id": 83068,
+      "pgamssp.placementId": 16698
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "sheepesports.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "nextMillennium.placement_id": 83069,
+      "pgamssp.placementId": 16699
+    },
+    "anchor": {
+      "gamAdUnit": "sheepesports.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 83071,
+      "pgamssp.placementId": 16701
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "sheepesports.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "nextMillennium.placement_id": 83070,
+      "pgamssp.placementId": 16700
+    },
+    "video": {
+      "gamAdUnit": "sheepesports.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2610",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13446"
+    }
+  }
+}
+
+// Generated for: sheepesports.com

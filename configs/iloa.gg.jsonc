@@ -1,0 +1,113 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "iloa.gg"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23212140763",
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 1,
+      "seedtag.reviq.rate": 1,
+      "smilewanted.reviq.rate": 0,
+      "seedtag.publisherId": "4548-9660-01",
+      "kueezrtb.cId": "691634b8446aa458efe76411"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "iloa.gg/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 15547,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150530
+    },
+    "right-rail-1": {
+      "gamAdUnit": "iloa.gg/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 15548,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150530
+    },
+    "left-rail-2": {
+      "gamAdUnit": "iloa.gg/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 15549,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150530
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "iloa.gg/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "pgamssp.placementId": 15550,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150531
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "iloa.gg/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "pgamssp.placementId": 15551,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150531
+    },
+    "right-rail-2": {
+      "gamAdUnit": "iloa.gg/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 15552,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150531
+    },
+    "anchor": {
+      "gamAdUnit": "iloa.gg/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 15553,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37150528
+    },
+    "video": {
+      "gamAdUnit": "iloa.gg/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2583",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13198"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "iloa.gg/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "pgamssp.placementId": 15555,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37150529
+    }
+  }
+}
+
+// Generated for: iloa.gg

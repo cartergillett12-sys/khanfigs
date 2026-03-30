@@ -1,0 +1,214 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "rivalskins.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "22348890574",
+      "appnexus.reviq.rate": 1,
+      "kargo.reviq.rate": 1,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "seedtag.publisherId": "0285-5055-01",
+      "kueezrtb.cId": "68c66c649216bb01599c8091"
+    },
+    "rsk_bottomadhesion_desktop": {
+      "gamAdUnit": "rivalskins.com/rsk_bottomadhesion_desktop",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_fHYjj74uXH",
+      "nextMillennium.placement_id": 77140,
+      "pgamssp.placementId": 14409,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37125485
+    },
+    "rsk_footer_desktop": {
+      "gamAdUnit": "rivalskins.com/rsk_footer_desktop",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_fHYjj74uXH",
+      "nextMillennium.placement_id": 77142,
+      "pgamssp.placementId": 14411,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125488
+    },
+    "RSK_SidebarLeft1_Desktop": {
+      "gamAdUnit": "rivalskins.com/RSK_SidebarLeft1_Desktop",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_igXzbVkYm4",
+      "nextMillennium.placement_id": 77149,
+      "pgamssp.placementId": 14418,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125488
+    },
+    "rsk_inarticle2_mobile": {
+      "gamAdUnit": "rivalskins.com/rsk_inarticle2_mobile",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_cLrxmIIMpq",
+      "nextMillennium.placement_id": 77146,
+      "pgamssp.placementId": 14415,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37125486
+    },
+    "rsk_inarticle3_mobile": {
+      "gamAdUnit": "rivalskins.com/rsk_inarticle3_mobile",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_cLrxmIIMpq",
+      "nextMillennium.placement_id": 77148,
+      "pgamssp.placementId": 14417,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37125486
+    },
+    "rsk_inarticle3_desktop": {
+      "gamAdUnit": "rivalskins.com/rsk_inarticle3_desktop",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_gf3I7Qii1f",
+      "nextMillennium.placement_id": 77147,
+      "pgamssp.placementId": 14416,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37125486
+    },
+    "rsk_topleaderboard_mobile": {
+      "gamAdUnit": "rivalskins.com/rsk_topleaderboard_mobile",
+      "size": "320x50",
+      "adyoulike.placement": "1d3e329127373f26c295e2e844da7c32",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_cTHUCxlMyC",
+      "nextMillennium.placement_id": 77154,
+      "pgamssp.placementId": 14423,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125488
+    },
+    "rsk_bottomadhesion_mobile": {
+      "gamAdUnit": "rivalskins.com/rsk_bottomadhesion_mobile",
+      "size": "320x50",
+      "adyoulike.placement": "1d3e329127373f26c295e2e844da7c32",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_bjIJIuJhnV",
+      "nextMillennium.placement_id": 77141,
+      "pgamssp.placementId": 14410,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37125485
+    },
+    "rsk_topadhesion_desktop": {
+      "gamAdUnit": "rivalskins.com/rsk_topadhesion_desktop",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_gf3I7Qii1f",
+      "nextMillennium.placement_id": 77151,
+      "pgamssp.placementId": 14420,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125490
+    },
+    "rsk_topadhesion_mobile": {
+      "gamAdUnit": "rivalskins.com/rsk_topadhesion_mobile",
+      "size": "320x50",
+      "adyoulike.placement": "1d3e329127373f26c295e2e844da7c32",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_cTHUCxlMyC",
+      "nextMillennium.placement_id": 77152,
+      "pgamssp.placementId": 14421,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125490
+    },
+    "anchor": {
+      "gamAdUnit": "rivalskins.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 77155,
+      "pgamssp.placementId": 14424,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37125485
+    },
+    "rsk_topleaderboard_desktop": {
+      "gamAdUnit": "rivalskins.com/rsk_topleaderboard_desktop",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_gf3I7Qii1f",
+      "nextMillennium.placement_id": 77153,
+      "pgamssp.placementId": 14422,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125493
+    },
+    "RSK_SidebarRight1_Desktop": {
+      "gamAdUnit": "rivalskins.com/RSK_SidebarRight1_Desktop",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_igXzbVkYm4",
+      "nextMillennium.placement_id": 77150,
+      "pgamssp.placementId": 14419,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125493
+    },
+    "rsk_inarticle1_desktop": {
+      "gamAdUnit": "rivalskins.com/rsk_inarticle1_desktop",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_gf3I7Qii1f",
+      "nextMillennium.placement_id": 77143,
+      "pgamssp.placementId": 14412,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37125487
+    },
+    "rsk_inarticle1_mobile": {
+      "gamAdUnit": "rivalskins.com/rsk_inarticle1_mobile",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_cLrxmIIMpq",
+      "nextMillennium.placement_id": 77144,
+      "pgamssp.placementId": 14413,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37125487
+    },
+    "rsk_inarticle2_desktop": {
+      "gamAdUnit": "rivalskins.com/rsk_inarticle2_desktop",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "appnexus.placement_id": 36489917,
+      "kargo.placementId": "_gf3I7Qii1f",
+      "nextMillennium.placement_id": 77145,
+      "pgamssp.placementId": 14414,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37125487
+    }
+  }
+}
+
+// Generated for: rivalskins.com

@@ -1,0 +1,151 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "leaderboard-1": {
+      "gamAdUnit": "tomato.gg/leaderboard-1",
+      "size": "970x90",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36207513,
+      "kargo.placementId": "_bkzCL78ewY",
+      "nextMillennium.placement_id": 77188,
+      "pgamssp.placementId": 14462,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167030
+    },
+    "video-top": {
+      "gamAdUnit": "tomato.gg/video-top",
+      "size": "400x225",
+      "nextMillennium.placement_id": 77197,
+      "pgamssp.placementId": 2777
+    },
+    "front-page-left": {
+      "gamAdUnit": "tomato.gg/front-page-left",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36207513,
+      "nextMillennium.placement_id": 77195,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167032
+    },
+    "front-page-right": {
+      "gamAdUnit": "tomato.gg/front-page-right",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36207513,
+      "nextMillennium.placement_id": 77194,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167032
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "tomato.gg/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36207513,
+      "kargo.placementId": "_b6ZhIvkUOE",
+      "nextMillennium.placement_id": 77196,
+      "pgamssp.placementId": 692,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 36167028
+    },
+    "left-rail-small": {
+      "gamAdUnit": "tomato.gg/left-rail-small",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36207513,
+      "kargo.placementId": "_qy78uWgEre",
+      "nextMillennium.placement_id": 77196,
+      "pgamssp.placementId": 692,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167032
+    },
+    "left-rail-1": {
+      "gamAdUnit": "tomato.gg/left-rail-1",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36207513,
+      "kargo.placementId": "_qy78uWgEre",
+      "nextMillennium.placement_id": 77192,
+      "pgamssp.placementId": 693,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167031
+    },
+    "right-rail-2": {
+      "gamAdUnit": "tomato.gg/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36207513,
+      "kargo.placementId": "_qy78uWgEre",
+      "nextMillennium.placement_id": 77191,
+      "pgamssp.placementId": 693,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167031
+    },
+    "anchor": {
+      "gamAdUnit": "tomato.gg/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36207513,
+      "nextMillennium.placement_id": 77197,
+      "pgamssp.placementId": 695,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36167027
+    },
+    "left-rail-2": {
+      "gamAdUnit": "tomato.gg/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36207513,
+      "kargo.placementId": "_qy78uWgEre",
+      "nextMillennium.placement_id": 77193,
+      "pgamssp.placementId": 693,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167031
+    },
+    "right-rail-1": {
+      "gamAdUnit": "tomato.gg/right-rail-1",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36207513,
+      "kargo.placementId": "_qy78uWgEre",
+      "nextMillennium.placement_id": 77190,
+      "pgamssp.placementId": 693,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167030
+    },
+    "footer-1": {
+      "gamAdUnit": "tomato.gg/footer-1",
+      "size": "1000x400",
+      "adyoulike.placement": "57ff06a203977a0e573b00d7562e2e4e",
+      "appnexus.placement_id": 36207513,
+      "nextMillennium.placement_id": 77189,
+      "pgamssp.placementId": 14463,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36167030
+    }
+  }
+}
+
+// Generated for: tomato.gg

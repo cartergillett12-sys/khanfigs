@@ -1,0 +1,131 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "left-rail-1": {
+      "gamAdUnit": "dpm.lol/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489844,
+      "kargo.placementId": "_t1Y0Op986J",
+      "nextMillennium.placement_id": 63213,
+      "pgamssp.placementId": 5405,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112771,
+      "triplelift.inventoryCode": "RevIQ_RON_300x250_PBc2s"
+    },
+    "leaderboard": {
+      "gamAdUnit": "dpm.lol/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "appnexus.placement_id": 36489844,
+      "kargo.placementId": "_moGIZYEjmg",
+      "nextMillennium.placement_id": 63217,
+      "pgamssp.placementId": 5407,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112771,
+      "triplelift.inventoryCode": "RevIQ_RON_HDX_PBc2s"
+    },
+    "billboard": {
+      "gamAdUnit": "dpm.lol/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "appnexus.placement_id": 36489844,
+      "nextMillennium.placement_id": 63217,
+      "pgamssp.placementId": 14453,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112772,
+      "triplelift.inventoryCode": "RevIQ_RON_HDX_PBc2s"
+    },
+    "anchor": {
+      "gamAdUnit": "dpm.lol/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36489844,
+      "nextMillennium.placement_id": 63218,
+      "pgamssp.placementId": 5408,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37112769,
+      "triplelift.inventoryCode": "RevIQ_RON_HDX_PBc2s"
+    },
+    "video": {
+      "gamAdUnit": "dpm.lol/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "",
+      "video-aio-anyclip.widgetname": ""
+    },
+    "left-rail-2": {
+      "gamAdUnit": "dpm.lol/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489844,
+      "kargo.placementId": "_t1Y0Op986J",
+      "nextMillennium.placement_id": 63214,
+      "pgamssp.placementId": 5406,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112772,
+      "triplelift.inventoryCode": "RevIQ_RON_300x600_PBc2s"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "dpm.lol/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36489844,
+      "kargo.placementId": "_i5JNRgNQ7t",
+      "nextMillennium.placement_id": 63221,
+      "pgamssp.placementId": 5405,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37112770,
+      "triplelift.inventoryCode": "RevIQ_RON_Mobile_300x250_PBc2s"
+    },
+    "right-rail-2": {
+      "gamAdUnit": "dpm.lol/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489844,
+      "kargo.placementId": "_t1Y0Op986J",
+      "nextMillennium.placement_id": 63216,
+      "pgamssp.placementId": 5406,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112773,
+      "triplelift.inventoryCode": "RevIQ_RON_300x600_PBc2s"
+    },
+    "right-rail-1": {
+      "gamAdUnit": "dpm.lol/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489844,
+      "kargo.placementId": "_t1Y0Op986J",
+      "nextMillennium.placement_id": 63215,
+      "pgamssp.placementId": 5405,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112773,
+      "triplelift.inventoryCode": "RevIQ_RON_300x250_PBc2s"
+    }
+  }
+}
+
+// Generated for: dpm.lol

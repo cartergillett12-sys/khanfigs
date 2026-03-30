@@ -1,0 +1,92 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {},
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "left-rail-1": {
+      "gamAdUnit": "etoland.co.kr/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36591226,
+      "kargo.placementId": "_jcOsZzJXxG",
+      "pgamssp.placementId": 14826,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762013
+    },
+    "right-rail-1": {
+      "gamAdUnit": "etoland.co.kr/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36591223,
+      "kargo.placementId": "_jcOsZzJXxG",
+      "pgamssp.placementId": 14828,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762013
+    },
+    "right-rail-2": {
+      "gamAdUnit": "etoland.co.kr/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36591224,
+      "kargo.placementId": "_iK3aVnhL44",
+      "pgamssp.placementId": 14829,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762013
+    },
+    "inline-block-(.*)": {
+      "gamAdUnit": "etoland.co.kr/inline-block",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36591223,
+      "kargo.placementId": "_c2C86F6xuX",
+      "pgamssp.placementId": 14831,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762014
+    },
+    "left-rail-2": {
+      "gamAdUnit": "etoland.co.kr/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36591227,
+      "kargo.placementId": "_iK3aVnhL44",
+      "pgamssp.placementId": 14827,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762013
+    },
+    "inline-video": {
+      "gamAdUnit": "etoland.co.kr/inline-video",
+      "size": "300x169",
+      "seedtag.placement": "inStream",
+      "seedtag.adUnitId": 36762015
+    },
+    "inline-mobile-(.*)": {
+      "gamAdUnit": "etoland.co.kr/inline-mobile",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36591228,
+      "kargo.placementId": "_c2C86F6xuX",
+      "pgamssp.placementId": 14833,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 36762012
+    }
+  }
+}
+
+// Generated for: etoland.co.kr

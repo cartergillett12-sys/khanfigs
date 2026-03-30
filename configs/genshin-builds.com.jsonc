@@ -1,0 +1,129 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "genshin-builds.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "scripts": {
+      "rtbhouse": "https://cdn.r9x.in/prod-global-9298809.js"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "22944217181",
+      "kargo.reviq.rate": 1,
+      "minutemedia.reviq.rate": 0,
+      "richaudience.reviq.rate": 1,
+      "seedtag.reviq.rate": 1,
+      "seedtag.publisherId": "3872-3964-01",
+      "kueezrtb.cId": "68f12659a4a830a9497573d8"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "genshin-builds.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_jr8hYbz2mn",
+      "nextMillennium.placement_id": 78061,
+      "pgamssp.placementId": 14975,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762033
+    },
+    "left-rail-2": {
+      "gamAdUnit": "genshin-builds.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_wYIcUVhH9l",
+      "nextMillennium.placement_id": 78062,
+      "pgamssp.placementId": 14976,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762033
+    },
+    "right-rail-1": {
+      "gamAdUnit": "genshin-builds.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_jr8hYbz2mn",
+      "nextMillennium.placement_id": 78063,
+      "pgamssp.placementId": 14977,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762033
+    },
+    "right-rail-2": {
+      "gamAdUnit": "genshin-builds.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_wYIcUVhH9l",
+      "nextMillennium.placement_id": 78064,
+      "pgamssp.placementId": 14978,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762033
+    },
+    "video": {
+      "gamAdUnit": "genshin-builds.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2576",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13133"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "genshin-builds.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "kargo.placementId": "_otl4doa0PI",
+      "nextMillennium.placement_id": 78066,
+      "pgamssp.placementId": 14980,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762034
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "genshin-builds.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "kargo.placementId": "_gbJjSLvwma",
+      "nextMillennium.placement_id": 78067,
+      "pgamssp.placementId": 14981,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762034
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "genshin-builds.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "kargo.placementId": "_gbJjSLvwma",
+      "nextMillennium.placement_id": 78069,
+      "pgamssp.placementId": 14983,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762034
+    },
+    "anchor": {
+      "gamAdUnit": "genshin-builds.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 78068,
+      "pgamssp.placementId": 14982,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36762032
+    }
+  }
+}
+
+// Generated for: genshin-builds.com

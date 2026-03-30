@@ -1,0 +1,125 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "left-rail-1": {
+      "gamAdUnit": "systemrequirementslab.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489928,
+      "kargo.placementId": "_y7jT9oD6M2",
+      "nextMillennium.placement_id": 77172,
+      "pgamssp.placementId": 14383,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36537167,
+      "triplelift.inventoryCode": "RevIQ_systemrequirementslab_com_left-rail-1_300x250_PBc2s",
+      "geniee.zoneId": 1607967
+    },
+    "billboard": {
+      "gamAdUnit": "systemrequirementslab.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "appnexus.placement_id": 36489928,
+      "kargo.placementId": "_lYK8cxqYct",
+      "nextMillennium.placement_id": 77177,
+      "pgamssp.placementId": 14388,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36537170,
+      "triplelift.inventoryCode": "RevIQ_systemrequirementslab_com_billboard_970x250_PBc2s",
+      "geniee.zoneId": 1607969
+    },
+    "anchor": {
+      "gamAdUnit": "systemrequirementslab.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36489928,
+      "nextMillennium.placement_id": 77178,
+      "pgamssp.placementId": 14389,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36537165,
+      "triplelift.inventoryCode": "RevIQ_systemrequirementslab_com_anchor_1000x100_PBc2s",
+      "geniee.zoneId": 1607973
+    },
+    "right-rail-1": {
+      "gamAdUnit": "systemrequirementslab.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489928,
+      "kargo.placementId": "_y7jT9oD6M2",
+      "nextMillennium.placement_id": 77174,
+      "pgamssp.placementId": 14385,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36537168,
+      "triplelift.inventoryCode": "RevIQ_systemrequirementslab_com_right-rail-1_300x250_PBc2s",
+      "geniee.zoneId": 1607968
+    },
+    "right-rail-2": {
+      "gamAdUnit": "systemrequirementslab.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489928,
+      "kargo.placementId": "_iKE7JVgKgR",
+      "nextMillennium.placement_id": 77175,
+      "pgamssp.placementId": 14386,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36537168,
+      "triplelift.inventoryCode": "RevIQ_systemrequirementslab_com_right-rail-2_300x600_PBc2s",
+      "geniee.zoneId": 1607970
+    },
+    "left-rail-2": {
+      "gamAdUnit": "systemrequirementslab.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489928,
+      "kargo.placementId": "_iKE7JVgKgR",
+      "nextMillennium.placement_id": 77173,
+      "pgamssp.placementId": 14384,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36537167,
+      "triplelift.inventoryCode": "RevIQ_systemrequirementslab_com_left-rail-2_300x600_PBc2s",
+      "geniee.zoneId": 1607971
+    },
+    "right-skyscraper": {
+      "gamAdUnit": "systemrequirementslab.com/right-skyscraper",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36489928,
+      "kargo.placementId": "_iKE7JVgKgR",
+      "nextMillennium.placement_id": 77176,
+      "pgamssp.placementId": 14387,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36537170,
+      "triplelift.inventoryCode": "RevIQ_systemrequirementslab_com_right-skyscraper_300x600_PBc2s",
+      "geniee.zoneId": 1607972
+    },
+    "inline-video": {
+      "gamAdUnit": "systemrequirementslab.com/inline-video",
+      "size": "400x225",
+      "nextMillennium.placement_id": 77179
+    }
+  }
+}
+
+// Generated for: systemrequirementslab.com

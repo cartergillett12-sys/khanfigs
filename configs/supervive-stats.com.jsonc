@@ -1,0 +1,99 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "supervive-stats.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23312572490",
+      "kargo.reviq.rate": 1,
+      "richaudience.reviq.rate": 1,
+      "seedtag.reviq.rate": 1,
+      "smilewanted.reviq.rate": 0,
+      "seedtag.publisherId": "8458-1614-01",
+      "kueezrtb.cId": "68c66f0935bcd39192963f18"
+    },
+    "right-rail-1": {
+      "gamAdUnit": "supervive-stats.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_dlg1EEpSoP",
+      "nextMillennium.placement_id": 77166,
+      "pgamssp.placementId": 14404,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112783
+    },
+    "anchor": {
+      "gamAdUnit": "supervive-stats.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 77170,
+      "pgamssp.placementId": 14408,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37112781
+    },
+    "left-rail-2": {
+      "gamAdUnit": "supervive-stats.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_xb9FsZFeJG",
+      "nextMillennium.placement_id": 77169,
+      "pgamssp.placementId": 14407,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112783
+    },
+    "right-rail-2": {
+      "gamAdUnit": "supervive-stats.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_xb9FsZFeJG",
+      "nextMillennium.placement_id": 77167,
+      "pgamssp.placementId": 14405,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112784
+    },
+    "inline-mobile-unit-(.*)": {
+      "gamAdUnit": "supervive-stats.com/inline-mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "kargo.placementId": "_lZLDUr96hL",
+      "nextMillennium.placement_id": 77171,
+      "pgamssp.placementId": 14461,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37112782
+    },
+    "left-rail-1": {
+      "gamAdUnit": "supervive-stats.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_dlg1EEpSoP",
+      "nextMillennium.placement_id": 77168,
+      "pgamssp.placementId": 14406,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112784
+    }
+  }
+}
+
+// Generated for: supervive-stats.com

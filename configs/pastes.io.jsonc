@@ -1,0 +1,68 @@
+{
+    "extends": "(reviq)",
+    "plugins": {
+        "stickyUnit": {
+            "adUnit": "anchor"
+        }
+    },
+    "tags": {
+        ".*": {
+            "gamPublisher": ""
+        },
+        "left-rail-1": {
+            "gamAdUnit": "pastes.io/left-rail-1",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "pgamssp.placementId": 15529
+        },
+        "left-rail-2": {
+            "gamAdUnit": "pastes.io/left-rail-2",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "pgamssp.placementId": 15530
+        },
+        "leaderboard-(.*)": {
+            "gamAdUnit": "pastes.io/leaderboard",
+            "size": "728x90",
+            "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+            "pgamssp.placementId": 15531
+        },
+        "right-rail-1": {
+            "gamAdUnit": "pastes.io/right-rail-1",
+            "size": "300x250",
+            "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+            "pgamssp.placementId": 15532
+        },
+        "right-rail-2": {
+            "gamAdUnit": "pastes.io/right-rail-2",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "pgamssp.placementId": 15533
+        },
+        "anchor": {
+            "gamAdUnit": "pastes.io/anchor",
+            "size": "1000x100",
+            "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+            "pgamssp.placementId": 15534
+        },
+        "billboard-(.*)": {
+            "gamAdUnit": "pastes.io/billboard",
+            "size": "970x250",
+            "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+            "pgamssp.placementId": 15535
+        },
+        "mobile-unit-(.*)": {
+            "gamAdUnit": "pastes.io/mobile-unit",
+            "size": "300x250",
+            "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+            "pgamssp.placementId": 15536
+        },
+        "video": {
+            "gamAdUnit": "pastes.io/video",
+            "size": "400x225",
+            "registrar": "video-aio-anyclip",
+            "video-aio-anyclip.pubname": "",
+            "video-aio-anyclip.widgetname": ""
+        }
+    }
+}

@@ -1,0 +1,119 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "left-rail-1": {
+      "gamAdUnit": "metatft.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_y9ZFYwRe84",
+      "nextMillennium.placement_id": 61802,
+      "pgamssp.placementId": 3389,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566873,
+      "triplelift.inventoryCode": "RevIQ_metatftcom_left-rail-1_300x250_PBc2s",
+      "geniee.zoneId": 1607961
+    },
+    "right-rail-2": {
+      "gamAdUnit": "metatft.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_y9ZFYwRe84",
+      "nextMillennium.placement_id": 61805,
+      "pgamssp.placementId": 3388,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566874,
+      "triplelift.inventoryCode": "RevIQ_metatftcom_right-rail-2_300x600_PBc2s",
+      "geniee.zoneId": 1607965
+    },
+    "billboard": {
+      "gamAdUnit": "metatft.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "kargo.placementId": "_siopfpWgdn",
+      "nextMillennium.placement_id": 61806,
+      "pgamssp.placementId": 3384,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566873,
+      "triplelift.inventoryCode": "RevIQ_metatftcom_billboard_970x250_PBc2s",
+      "geniee.zoneId": 1607963
+    },
+    "right-rail-1": {
+      "gamAdUnit": "metatft.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_y9ZFYwRe84",
+      "nextMillennium.placement_id": 61804,
+      "pgamssp.placementId": 3389,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566874,
+      "triplelift.inventoryCode": "RevIQ_metatftcom_right-rail-1_300x250_PBc2s",
+      "geniee.zoneId": 1607962
+    },
+    "left-rail-2": {
+      "gamAdUnit": "metatft.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_y9ZFYwRe84",
+      "nextMillennium.placement_id": 61803,
+      "pgamssp.placementId": 3389,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566874,
+      "triplelift.inventoryCode": "RevIQ_metatftcom_left-rail-2_300x600_PBc2s",
+      "geniee.zoneId": 1607964
+    },
+    "anchor": {
+      "gamAdUnit": "metatft.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 61807,
+      "pgamssp.placementId": 3391,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36566872,
+      "triplelift.inventoryCode": "RevIQ_metatftcom_anchor_1000x100_PBc2s",
+      "geniee.zoneId": 1607966
+    },
+    "video": {
+      "gamAdUnit": "metatft.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "",
+      "video-aio-anyclip.widgetname": ""
+    },
+    "mobile-inline-(.*)": {
+      "gamAdUnit": "metatft.com/mobile-inline",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "kargo.placementId": "_iZW7LiHFKf",
+      "nextMillennium.placement_id": 62117,
+      "pgamssp.placementId": 3389,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566874,
+      "triplelift.inventoryCode": "RevIQ_metatftcom_mobile-inline-0_300x250_PBc2s"
+    }
+  }
+}
+
+// Generated for: metatft.com

@@ -1,0 +1,126 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "cancelwise.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "scripts": {
+      "rtbhouse": "https://cdn.r9x.in/prod-global-9298809.js"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23321565365",
+      "kargo.reviq.rate": 1,
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "oms.reviq.rate": 0,
+      "optima.reviq.rate": 0,
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "smilewanted.reviq.rate": 0,
+      "seedtag.publisherId": "7757-6684-01",
+      "kueezrtb.cId": "68f125d7a4a830a9497573b2"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "cancelwise.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_msM6yZalyh",
+      "pgamssp.placementId": 14966,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762029
+    },
+    "left-rail-2": {
+      "gamAdUnit": "cancelwise.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_s4ijeWZMgx",
+      "pgamssp.placementId": 14967,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762029
+    },
+    "right-rail-1": {
+      "gamAdUnit": "cancelwise.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_msM6yZalyh",
+      "pgamssp.placementId": 14968,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762029
+    },
+    "right-rail-2": {
+      "gamAdUnit": "cancelwise.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_s4ijeWZMgx",
+      "pgamssp.placementId": 14969,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762029
+    },
+    "video": {
+      "gamAdUnit": "cancelwise.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2575",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13132"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "cancelwise.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "kargo.placementId": "_fTsnKhXKfs",
+      "pgamssp.placementId": 14971,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762030
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "cancelwise.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "kargo.placementId": "_h160zXD5Qw",
+      "pgamssp.placementId": 14972,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762030
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "cancelwise.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "kargo.placementId": "_h160zXD5Qw",
+      "pgamssp.placementId": 14974,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762030
+    },
+    "anchor": {
+      "gamAdUnit": "cancelwise.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 14973,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36762028
+    }
+  }
+}
+
+// Generated for: cancelwise.com

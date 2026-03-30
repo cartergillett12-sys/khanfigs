@@ -1,0 +1,145 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "left-rail-1": {
+      "gamAdUnit": "stats.cc/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_xuerP19Cr5",
+      "nextMillennium.placement_id": 77156,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566945
+    },
+    "right-rail-2": {
+      "gamAdUnit": "stats.cc/right-rail-2",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_xuerP19Cr5",
+      "nextMillennium.placement_id": 77159,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566945
+    },
+    "inline-mobile-(.*)": {
+      "gamAdUnit": "stats.cc/inline-mobile",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_c0g39ye79Q",
+      "nextMillennium.placement_id": 77165,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566946
+    },
+    "right-rail-1": {
+      "gamAdUnit": "stats.cc/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_xuerP19Cr5",
+      "nextMillennium.placement_id": 77158,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566945
+    },
+    "video-top": {
+      "gamAdUnit": "stats.cc/video-top",
+      "size": "",
+      "adyoulike.placement": "265cf0a4a050dc6a3778aff3b22fc844",
+      "appnexus.placement_id": 36489923,
+      "nextMillennium.placement_id": 82374
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "stats.cc/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_z6HgmlsdJS",
+      "nextMillennium.placement_id": 77162,
+      "pgamssp.placementId": 14380
+    },
+    "right-rail-3": {
+      "gamAdUnit": "stats.cc/right-rail-3",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_xuerP19Cr5",
+      "nextMillennium.placement_id": 77160,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566945
+    },
+    "billboard": {
+      "gamAdUnit": "stats.cc/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_z6HgmlsdJS",
+      "nextMillennium.placement_id": 77161,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566946
+    },
+    "anchor": {
+      "gamAdUnit": "stats.cc/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_xuerP19Cr5",
+      "nextMillennium.placement_id": 77163,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36566944
+    },
+    "in-feed-rail-(.*)": {
+      "gamAdUnit": "stats.cc/in-feed-rail",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_xuerP19Cr5",
+      "nextMillennium.placement_id": 77164,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566945
+    },
+    "left-rail-2": {
+      "gamAdUnit": "stats.cc/left-rail-2",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36489923,
+      "kargo.placementId": "_xuerP19Cr5",
+      "nextMillennium.placement_id": 77157,
+      "pgamssp.placementId": 14380,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36566945
+    }
+  }
+}
+
+// Generated for: stats.cc

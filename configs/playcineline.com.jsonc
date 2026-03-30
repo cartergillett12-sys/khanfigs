@@ -1,0 +1,124 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "playcineline.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "scripts": {
+      "rtbhouse": "https://cdn.r9x.in/prod-global-9298809.js"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23321565365",
+      "kargo.reviq.rate": 1,
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "oms.reviq.rate": 0,
+      "optima.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "seedtag.publisherId": "8181-7411-01",
+      "kueezrtb.cId": "68f12551a4a830a94975738d"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "playcineline.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_o1fYjCwQ25",
+      "pgamssp.placementId": 14957,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762025
+    },
+    "left-rail-2": {
+      "gamAdUnit": "playcineline.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_gYdZ89N2Qn",
+      "pgamssp.placementId": 14958,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762025
+    },
+    "right-rail-1": {
+      "gamAdUnit": "playcineline.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_o1fYjCwQ25",
+      "pgamssp.placementId": 14959,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762025
+    },
+    "right-rail-2": {
+      "gamAdUnit": "playcineline.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_gYdZ89N2Qn",
+      "pgamssp.placementId": 14960,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762025
+    },
+    "video": {
+      "gamAdUnit": "playcineline.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2574",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13131"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "playcineline.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "kargo.placementId": "_hGUHPPSifN",
+      "pgamssp.placementId": 14962,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 36762026
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "playcineline.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "kargo.placementId": "_jBaxGSFfbP",
+      "pgamssp.placementId": 14963,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762026
+    },
+    "anchor": {
+      "gamAdUnit": "playcineline.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 14964,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36762024
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "playcineline.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "kargo.placementId": "_jBaxGSFfbP",
+      "pgamssp.placementId": 14965,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762026
+    }
+  }
+}
+
+// Generated for: playcineline.com

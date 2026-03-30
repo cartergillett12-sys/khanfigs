@@ -1,0 +1,114 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "bloxgamers.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23308471723",
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "oms.reviq.rate": 0,
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "smilewanted.reviq.rate": 0,
+      "seedtag.publisherId": "7871-3222-01",
+      "kueezrtb.cId": "69199355a625f94d8772bcd0"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "bloxgamers.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 16482,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150554
+    },
+    "left-rail-2": {
+      "gamAdUnit": "bloxgamers.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 16483,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150554
+    },
+    "right-rail-2": {
+      "gamAdUnit": "bloxgamers.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 16484,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150554
+    },
+    "right-rail-1": {
+      "gamAdUnit": "bloxgamers.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 16485,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150555
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "bloxgamers.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "pgamssp.placementId": 16486,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150555
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "bloxgamers.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "pgamssp.placementId": 16487,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37150555
+    },
+    "anchor": {
+      "gamAdUnit": "bloxgamers.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 16488,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37150552
+    },
+    "video": {
+      "gamAdUnit": "bloxgamers.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2559",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13036"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "bloxgamers.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "pgamssp.placementId": 16490,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37150553
+    }
+  }
+}
+
+// Generated for: bloxgamers.com

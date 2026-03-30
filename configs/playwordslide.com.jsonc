@@ -1,0 +1,124 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "playwordslide.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "scripts": {
+      "rtbhouse": "https://cdn.r9x.in/prod-global-9298809.js"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23321565365",
+      "kargo.reviq.rate": 1,
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "oms.reviq.rate": 0,
+      "optima.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "seedtag.publisherId": "9888-6329-01",
+      "kueezrtb.cId": "68f124b9a4a830a949757359"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "playwordslide.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_u8LNyHMO6F",
+      "pgamssp.placementId": 14948,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762021
+    },
+    "left-rail-2": {
+      "gamAdUnit": "playwordslide.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_bDZarxv0Hq",
+      "pgamssp.placementId": 14949,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762021
+    },
+    "right-rail-1": {
+      "gamAdUnit": "playwordslide.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "kargo.placementId": "_u8LNyHMO6F",
+      "pgamssp.placementId": 14950,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762021
+    },
+    "right-rail-2": {
+      "gamAdUnit": "playwordslide.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_bDZarxv0Hq",
+      "pgamssp.placementId": 14951,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762022
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "playwordslide.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "kargo.placementId": "_es28IetOUs",
+      "pgamssp.placementId": 14953,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762022
+    },
+    "video": {
+      "gamAdUnit": "playwordslide.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2573",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13130"
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "playwordslide.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "kargo.placementId": "_v37grTNw6v",
+      "pgamssp.placementId": 14954,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762022
+    },
+    "anchor": {
+      "gamAdUnit": "playwordslide.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 14955,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36762020
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "playwordslide.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "kargo.placementId": "_v37grTNw6v",
+      "pgamssp.placementId": 14956,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36762022
+    }
+  }
+}
+
+// Generated for: playwordslide.com

@@ -1,0 +1,89 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "overlayedapps.com"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "",
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "pubmatic.reviq.rate": 0,
+      "smilewanted.reviq.rate": 0,
+      "kueezrtb.cId": "698091878b51b43b584a6076"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "overlayedapps.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8"
+    },
+    "left-rail-2": {
+      "gamAdUnit": "overlayedapps.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7"
+    },
+    "right-rail-1": {
+      "gamAdUnit": "overlayedapps.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8"
+    },
+    "right-rail-2": {
+      "gamAdUnit": "overlayedapps.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7"
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "overlayedapps.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6"
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "overlayedapps.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439"
+    },
+    "anchor": {
+      "gamAdUnit": "overlayedapps.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "overlayedapps.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1"
+    },
+    "interstitial": {
+      "gamAdUnit": "overlayedapps.com/interstitial",
+      "size": ""
+    },
+    "video": {
+      "gamAdUnit": "overlayedapps.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "",
+      "video-aio-anyclip.widgetname": ""
+    }
+  }
+}
+
+// Generated for: overlayedapps.com

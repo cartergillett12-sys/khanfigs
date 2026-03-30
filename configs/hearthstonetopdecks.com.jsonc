@@ -1,0 +1,113 @@
+{
+    "extends": "(reviq)",
+    "plugins": {
+        "stickyUnit": {
+            "adUnit": "anchor"
+        }
+    },
+    "tags": {
+        ".*": {
+            "gamPublisher": ""
+        },
+        "right-rail-1": {
+            "gamAdUnit": "hearthstonetopdecks.com/right-rail-1",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "kargo.placementId": "_r3sLIc9l8q",
+            "nextMillennium.placement_id": 76248,
+            "pgamssp.placementId": 14439,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36380434
+        },
+        "mobile-unit-2": {
+            "gamAdUnit": "hearthstonetopdecks.com/mobile-unit-2",
+            "size": "320x50",
+            "adyoulike.placement": "1d3e329127373f26c295e2e844da7c32",
+            "kargo.placementId": "_a2nSJnTlFa",
+            "nextMillennium.placement_id": 77114,
+            "pgamssp.placementId": 14447
+        },
+        "mobile-unit-1": {
+            "gamAdUnit": "hearthstonetopdecks.com/mobile-unit-1",
+            "size": "300x250",
+            "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+            "kargo.placementId": "_lYcmcy3OCn",
+            "nextMillennium.placement_id": 76254,
+            "pgamssp.placementId": 14446
+        },
+        "mobile-unit-4": {
+            "gamAdUnit": "hearthstonetopdecks.com/mobile-unit-4",
+            "size": "300x250",
+            "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+            "kargo.placementId": "_lYcmcy3OCn",
+            "nextMillennium.placement_id": 76254,
+            "pgamssp.placementId": 14449
+        },
+        "left-rail-1": {
+            "gamAdUnit": "hearthstonetopdecks.com/left-rail-1",
+            "size": "300x600",
+            "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+            "kargo.placementId": "_r3sLIc9l8q",
+            "nextMillennium.placement_id": 76250,
+            "pgamssp.placementId": 14440,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36380433
+        },
+        "anchor": {
+            "gamAdUnit": "hearthstonetopdecks.com/anchor",
+            "size": "320x50",
+            "adyoulike.placement": "1d3e329127373f26c295e2e844da7c32",
+            "kargo.placementId": "_v7ig21fjUd",
+            "nextMillennium.placement_id": 77113,
+            "pgamssp.placementId": 14445,
+            "seedtag.placement": "inScreen",
+            "seedtag.adUnitId": 36380432
+        },
+        "leaderboard": {
+            "gamAdUnit": "hearthstonetopdecks.com/leaderboard",
+            "size": "728x90",
+            "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+            "kargo.placementId": "_wAPKwsoQCr",
+            "nextMillennium.placement_id": 76253,
+            "pgamssp.placementId": 14444
+        },
+        "billboard-atf": {
+            "gamAdUnit": "hearthstonetopdecks.com/billboard-atf",
+            "size": "970x250",
+            "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+            "kargo.placementId": "_wAPKwsoQCr",
+            "nextMillennium.placement_id": 76252,
+            "pgamssp.placementId": 14441,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36380433
+        },
+        "mobile-unit-3": {
+            "gamAdUnit": "hearthstonetopdecks.com/mobile-unit-3",
+            "size": "300x250",
+            "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+            "kargo.placementId": "_lYcmcy3OCn",
+            "nextMillennium.placement_id": 76254,
+            "pgamssp.placementId": 14448
+        },
+        "billboard-btf": {
+            "gamAdUnit": "hearthstonetopdecks.com/billboard-btf",
+            "size": "728x90",
+            "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+            "kargo.placementId": "_wAPKwsoQCr",
+            "nextMillennium.placement_id": 76253,
+            "pgamssp.placementId": 14443,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36380433
+        },
+        "billboard-atf-2": {
+            "gamAdUnit": "hearthstonetopdecks.com/billboard-atf-2",
+            "size": "728x90",
+            "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+            "kargo.placementId": "_wAPKwsoQCr",
+            "nextMillennium.placement_id": 76253,
+            "pgamssp.placementId": 14442,
+            "seedtag.placement": "inBanner",
+            "seedtag.adUnitId": 36380433
+        }
+    }
+}

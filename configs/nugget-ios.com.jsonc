@@ -1,0 +1,99 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "nugget-ios.com"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23334778486",
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "oms.reviq.rate": 0,
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "smilewanted.reviq.rate": 0
+    },
+    "left-rail-1": {
+      "gamAdUnit": "nugget-ios.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 18519
+    },
+    "left-rail-2": {
+      "gamAdUnit": "nugget-ios.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 18520
+    },
+    "right-rail-1": {
+      "gamAdUnit": "nugget-ios.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 18522
+    },
+    "right-rail-2": {
+      "gamAdUnit": "nugget-ios.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 18521
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "nugget-ios.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "pgamssp.placementId": 18523
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "nugget-ios.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "pgamssp.placementId": 18524
+    },
+    "anchor": {
+      "gamAdUnit": "nugget-ios.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 18526
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "nugget-ios.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "pgamssp.placementId": 18525
+    },
+    "interstitial": {
+      "gamAdUnit": "nugget-ios.com/interstitial",
+      "size": "",
+      "pgamssp.placementId": 18527
+    },
+    "video": {
+      "gamAdUnit": "nugget-ios.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "",
+      "video-aio-anyclip.widgetname": ""
+    }
+  }
+}
+
+// Generated for: nugget-ios.com

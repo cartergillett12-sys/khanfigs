@@ -1,0 +1,17 @@
+{
+	"vcs": {
+		"enabled": true,
+		"clientKind": "git",
+		"useIgnoreFile": true
+	},
+	"overrides": [
+		{
+			"includes": ["configs/*.jsonc"],
+			"json": {
+				"formatter": {
+					"trailingCommas": "all"
+				}
+			}
+		}
+	]
+}

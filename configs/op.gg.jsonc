@@ -1,0 +1,217 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "backfill": {
+      "gamAdUnit": "op.gg/backfill",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_lUbvkzAa7A",
+      "nextMillennium.placement_id": 77124,
+      "pgamssp.placementId": 2698,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380448,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-left-rail-2_300x250_PBc2s"
+    },
+    "in-feed-(.*)": {
+      "gamAdUnit": "op.gg/in-feed",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_ws5fRW8Jzk",
+      "nextMillennium.placement_id": 77136,
+      "pgamssp.placementId": 2592,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380447,
+      "triplelift.inventoryCode": "RevIQ_opgg_728x90_PBc2s"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "op.gg/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_lUbvkzAa7A",
+      "nextMillennium.placement_id": 77125,
+      "pgamssp.placementId": 2698,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380448,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-left-rail-2_300x250_PBc2s"
+    },
+    "left-rail-2": {
+      "gamAdUnit": "op.gg/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_vDP9LRVoop",
+      "nextMillennium.placement_id": 77126,
+      "pgamssp.placementId": 2697,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380448,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-left-rail-1_300x600_PBc2s"
+    },
+    "billboard": {
+      "gamAdUnit": "op.gg/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_ws5fRW8Jzk",
+      "nextMillennium.placement_id": 77130,
+      "pgamssp.placementId": 14459,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380450,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-billboard_970x250_PBc2s"
+    },
+    "mobile-in-feed-1": {
+      "gamAdUnit": "op.gg/mobile-in-feed-1",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_eVO14hgEkr",
+      "nextMillennium.placement_id": 77135,
+      "pgamssp.placementId": 2698,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": "5275-2196-01",
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-right-rail-2_300x250_PBc2s"
+    },
+    "video": {
+      "gamAdUnit": "op.gg/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "",
+      "video-aio-anyclip.widgetname": ""
+    },
+    "right-rail-1": {
+      "gamAdUnit": "op.gg/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_lUbvkzAa7A",
+      "nextMillennium.placement_id": 77127,
+      "pgamssp.placementId": 2698,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380449,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-right-rail-2_300x250_PBc2s"
+    },
+    "home-billboard": {
+      "gamAdUnit": "op.gg/home-billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_ws5fRW8Jzk",
+      "nextMillennium.placement_id": 77131,
+      "pgamssp.placementId": 14459,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380450,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-billboard_970x250_PBc2s"
+    },
+    "anchor": {
+      "gamAdUnit": "op.gg/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_ot8flmLwyS",
+      "nextMillennium.placement_id": 77133,
+      "pgamssp.placementId": 14460,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 36380446,
+      "triplelift.inventoryCode": "RevIQ_opgg_970x90-top_PBc2s"
+    },
+    "in-feed-left-1": {
+      "gamAdUnit": "op.gg/in-feed-left-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_lUbvkzAa7A",
+      "nextMillennium.placement_id": 77137,
+      "pgamssp.placementId": 2698,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380448,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-left-rail-2_300x250_PBc2s"
+    },
+    "in-feed-right-1": {
+      "gamAdUnit": "op.gg/in-feed-right-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_lUbvkzAa7A",
+      "nextMillennium.placement_id": 77138,
+      "pgamssp.placementId": 2698,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380448,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-left-rail-2_300x250_PBc2s"
+    },
+    "footer": {
+      "gamAdUnit": "op.gg/footer",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_ws5fRW8Jzk",
+      "nextMillennium.placement_id": 77132,
+      "pgamssp.placementId": 14459,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380450,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-billboard_970x250_PBc2s"
+    },
+    "leaderboard": {
+      "gamAdUnit": "op.gg/leaderboard",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_ot8flmLwyS",
+      "nextMillennium.placement_id": 77129,
+      "pgamssp.placementId": 14460,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380449,
+      "triplelift.inventoryCode": "RevIQ_opgg_970x90-top_PBc2s"
+    },
+    "right-rail-2": {
+      "gamAdUnit": "op.gg/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_vDP9LRVoop",
+      "nextMillennium.placement_id": 77128,
+      "pgamssp.placementId": 2697,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380449,
+      "triplelift.inventoryCode": "RevIQ_op-gg_leaderboards-right-rail-1_300x600_PBc2s"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "op.gg/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "appnexus.placement_id": 36085954,
+      "kargo.placementId": "_eVO14hgEkr",
+      "nextMillennium.placement_id": 77134,
+      "pgamssp.placementId": 2698,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 36380451,
+      "triplelift.inventoryCode": "RevIQ_op-gg_statistics-right-rail-2_300x250_PBc2s"
+    }
+  }
+}
+
+// Generated for: op.gg

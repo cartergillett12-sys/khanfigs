@@ -1,0 +1,117 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "fellsims.com"
+    },
+    "registrars/video-aio-anyclip": true,
+    "scripts": {
+      "rtbhouse": "https://cdn.r9x.in/prod-global-9298809.js"
+    },
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23322874068",
+      "minutemedia.reviq.rate": 0,
+      "nextmillenium.reviq.rate": 0,
+      "optima.reviq.rate": 0,
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "seedtag.reviq.rate": 1,
+      "smilewanted.reviq.rate": 0,
+      "seedtag.publisherId": "6798-4111-01",
+      "kueezrtb.cId": "6914338694ecdd789ddb5d8f"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "fellsims.com/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 15538,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112764
+    },
+    "left-rail-2": {
+      "gamAdUnit": "fellsims.com/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 15539,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112764
+    },
+    "right-rail-1": {
+      "gamAdUnit": "fellsims.com/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "pgamssp.placementId": 15540,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112765
+    },
+    "right-rail-2": {
+      "gamAdUnit": "fellsims.com/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "pgamssp.placementId": 15541,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112765
+    },
+    "video": {
+      "gamAdUnit": "fellsims.com/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2581",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13200"
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "fellsims.com/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "pgamssp.placementId": 15543,
+      "seedtag.placement": "inArticle",
+      "seedtag.adUnitId": 37112763
+    },
+    "anchor": {
+      "gamAdUnit": "fellsims.com/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "pgamssp.placementId": 15544,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37112762
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "fellsims.com/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "pgamssp.placementId": 15545,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112766
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "fellsims.com/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "pgamssp.placementId": 15546,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37112766
+    }
+  }
+}
+
+// Generated for: fellsims.com

@@ -1,0 +1,86 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {},
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": ""
+    },
+    "portals-right-rail-2": {
+      "gamAdUnit": "games.op.gg/portals-right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_nufurzZIwT",
+      "nextMillennium.placement_id": 56868,
+      "pgamssp.placementId": 14434,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125500
+    },
+    "portals-right-rail-1": {
+      "gamAdUnit": "games.op.gg/portals-right-rail-1",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_nufurzZIwT",
+      "nextMillennium.placement_id": 56868,
+      "pgamssp.placementId": 14433,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125500
+    },
+    "portals-left-rail-2": {
+      "gamAdUnit": "games.op.gg/portals-left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_nufurzZIwT",
+      "nextMillennium.placement_id": 56868,
+      "pgamssp.placementId": 14436,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125500
+    },
+    "portals-leaderboard": {
+      "gamAdUnit": "games.op.gg/portals-leaderboard",
+      "size": "970x90",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "kargo.placementId": "_n77VPWn1ko",
+      "nextMillennium.placement_id": 56872,
+      "pgamssp.placementId": 14438,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125501
+    },
+    "portals-left-rail-1": {
+      "gamAdUnit": "games.op.gg/portals-left-rail-1",
+      "size": "160x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "kargo.placementId": "_nufurzZIwT",
+      "nextMillennium.placement_id": 56869,
+      "pgamssp.placementId": 14435,
+      "seedtag.placement": "inBanner",
+      "seedtag.adUnitId": 37125501
+    },
+    "portals-bottom-sticky": {
+      "gamAdUnit": "games.op.gg/portals-bottom-sticky",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "kargo.placementId": "_n77VPWn1ko",
+      "nextMillennium.placement_id": 56871,
+      "pgamssp.placementId": 14437,
+      "seedtag.placement": "inScreen",
+      "seedtag.adUnitId": 37125499
+    }
+  }
+}
+
+// Generated for: games.op.gg

@@ -1,0 +1,107 @@
+// !!! Comment structure is as follows !!!
+
+/* Constraints: Required || Optional
+   What this does?
+   Writers Notes */
+
+{
+
+  /* Required
+     Extends imports the base config, which is set for all publishers from the (reviq) folder
+     Don't touch this */
+  "extends": "(reviq)",
+
+  /* Optional
+     Plugins object is only required if you are enabling a plugin
+     Usually necessary */
+  "plugins":   {
+    "inmobi": {
+      "host": "talishar.net"
+    },
+    "registrars/video-aio-anyclip": true,
+    "stickyUnit": {
+      "adUnit": "anchor"
+    }
+  },
+
+  "tags":   {
+    ".*": {
+      "gamPublisher": "23311359003",
+      "pubmatic.reviq.rate": 0,
+      "richaudience.reviq.rate": 0,
+      "smilewanted.reviq.rate": 0,
+      "kueezrtb.cId": "69529b26e59b488bf94f129f"
+    },
+    "left-rail-1": {
+      "gamAdUnit": "talishar.net/left-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "nextMillennium.placement_id": 83752,
+      "pgamssp.placementId": 17019
+    },
+    "left-rail-2": {
+      "gamAdUnit": "talishar.net/left-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "nextMillennium.placement_id": 83751,
+      "pgamssp.placementId": 17018
+    },
+    "right-rail-1": {
+      "gamAdUnit": "talishar.net/right-rail-1",
+      "size": "300x250",
+      "adyoulike.placement": "0b6670e89fc5152f385f05dcace118a8",
+      "nextMillennium.placement_id": 83753,
+      "pgamssp.placementId": 17020
+    },
+    "right-rail-2": {
+      "gamAdUnit": "talishar.net/right-rail-2",
+      "size": "300x600",
+      "adyoulike.placement": "d38c91963367413b19cac12175161fc7",
+      "nextMillennium.placement_id": 83755,
+      "pgamssp.placementId": 17022
+    },
+    "leaderboard-(.*)": {
+      "gamAdUnit": "talishar.net/leaderboard",
+      "size": "728x90",
+      "adyoulike.placement": "81cded6577753d91e46630a79d8142d6",
+      "nextMillennium.placement_id": 83754,
+      "pgamssp.placementId": 17021
+    },
+    "billboard-(.*)": {
+      "gamAdUnit": "talishar.net/billboard",
+      "size": "970x250",
+      "adyoulike.placement": "c3db67f8eb975055504bf15dd06fc439",
+      "nextMillennium.placement_id": 83756,
+      "pgamssp.placementId": 17023
+    },
+    "anchor": {
+      "gamAdUnit": "talishar.net/anchor",
+      "size": "1000x100",
+      "adyoulike.placement": "3fdb35aaca880ae9a1c99299649805f0",
+      "nextMillennium.placement_id": 83758,
+      "pgamssp.placementId": 17025
+    },
+    "mobile-unit-(.*)": {
+      "gamAdUnit": "talishar.net/mobile-unit",
+      "size": "300x250",
+      "adyoulike.placement": "8d441d426adeaea9fc671c162e42adc1",
+      "nextMillennium.placement_id": 83757,
+      "pgamssp.placementId": 17024
+    },
+    "interstitial": {
+      "gamAdUnit": "talishar.net/interstitial",
+      "size": "",
+      "nextMillennium.placement_id": 83758,
+      "pgamssp.placementId": 17026
+    },
+    "video": {
+      "gamAdUnit": "talishar.net/video",
+      "size": "400x225",
+      "registrar": "video-aio-anyclip",
+      "video-aio-anyclip.pubname": "2612",
+      "video-aio-anyclip.widgetname": "001Te000004ZYO7IAO_M13448"
+    }
+  }
+}
+
+// Generated for: talishar.net
