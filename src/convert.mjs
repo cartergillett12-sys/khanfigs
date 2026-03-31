@@ -20,9 +20,10 @@ if (!fs.existsSync(configDir)) {
   fs.mkdirSync(configDir, { recursive: true });
 }
 
+// Clear old generated config files
 try {
   fs.readdirSync(configDir).forEach((file) => {
-    if (file.endsWith(".json")) {
+    if (file.endsWith(".json") || file.endsWith(".jsonc")) {
       fs.unlinkSync(path.join(configDir, file));
     }
   });
@@ -46,8 +47,7 @@ function stripBOMFromRecords(records) {
   return records.map((rec) => {
     const cleaned = {};
     for (const k of Object.keys(rec)) {
-      const nk = k.replace(/^\uFEFF/, "");
-      cleaned[nk] = rec[k];
+      cleaned[k.replace(/^\uFEFF/, "")] = rec[k];
     }
     return cleaned;
   });
@@ -98,9 +98,7 @@ function filterAllowedPlugins(pluginsObj) {
 }
 
 function sortObject(value) {
-  if (Array.isArray(value)) {
-    return value.map(sortObject);
-  }
+  if (Array.isArray(value)) return value.map(sortObject);
 
   if (value && typeof value === "object") {
     return Object.keys(value)
@@ -132,7 +130,6 @@ function buildOutputConfig(config) {
   }
 
   output.tags = sortObject(config.tags);
-
   return output;
 }
 
@@ -201,35 +198,33 @@ function generateSiteConfig(site, adUnitsForSite, siteData) {
     }
   }
 
-  if (adUnitsForSite && adUnitsForSite.length > 0) {
-    adUnitsForSite.forEach((adUnit) => {
-      const unitName = cleanVal(adUnit["Ad Unit Name"]);
-      const size = cleanVal(adUnit.Size);
-      const placements = buildProviderPlacements(adUnit);
+  (adUnitsForSite || []).forEach((adUnit) => {
+    const unitName = cleanVal(adUnit["Ad Unit Name"]);
+    const size = cleanVal(adUnit.Size);
+    const placements = buildProviderPlacements(adUnit);
 
-      if (!unitName) return;
+    if (!unitName) return;
 
-      if (unitName === "video") {
-        config.tags[unitName] = {
-          gamAdUnit: adUnit["gamAdUnit"] || `${site}/${unitName}`,
-          size: "400x225",
-          registrar: "video-aio-anyclip",
-          "video-aio-anyclip.pubname": cleanVal(
-            siteData?.["video-aio-anyclip.pubname"]
-          ),
-          "video-aio-anyclip.widgetname": cleanVal(
-            siteData?.["video-aio-anyclip.widgetname"]
-          ),
-        };
-      } else {
-        config.tags[unitName] = {
-          gamAdUnit: adUnit["gamAdUnit"] || `${site}/${unitName}`,
-          size: size || "",
-          ...placements,
-        };
-      }
-    });
-  }
+    if (unitName === "video") {
+      config.tags[unitName] = {
+        gamAdUnit: adUnit["gamAdUnit"] || `${site}/${unitName}`,
+        size: "400x225",
+        registrar: "video-aio-anyclip",
+        "video-aio-anyclip.pubname": cleanVal(
+          siteData?.["video-aio-anyclip.pubname"]
+        ),
+        "video-aio-anyclip.widgetname": cleanVal(
+          siteData?.["video-aio-anyclip.widgetname"]
+        ),
+      };
+    } else {
+      config.tags[unitName] = {
+        gamAdUnit: adUnit["gamAdUnit"] || `${site}/${unitName}`,
+        size: size || "",
+        ...placements,
+      };
+    }
+  });
 
   if (cleanVal(siteData?.["inmobi setup?"]).toLowerCase() === "checked") {
     config.plugins.inmobi = { host: site };
@@ -280,14 +275,19 @@ function generateSiteConfig(site, adUnitsForSite, siteData) {
   }
 
   config.plugins = filterAllowedPlugins(config.plugins);
-
   return buildOutputConfig(config);
 }
 
+const allSites = new Set([
+  ...Array.from(sitesMap.keys()),
+  ...Object.keys(siteAdUnits),
+]);
+
 const results = [];
 
-for (const [site, adUnitsForSite] of Object.entries(siteAdUnits)) {
+for (const site of allSites) {
   const siteData = sitesMap.get(site);
+  const adUnitsForSite = siteAdUnits[site] || [];
   const config = generateSiteConfig(site, adUnitsForSite, siteData);
 
   const filename = site.replace(/[^a-z0-9.-]/gi, "_").toLowerCase();
@@ -302,11 +302,13 @@ for (const [site, adUnitsForSite] of Object.entries(siteAdUnits)) {
     path: filepath,
   });
 
-  console.log(`[v2] Generated config for ${site} with ${adUnitsForSite.length} ad units`);
+  console.log(
+    `[v3] Generated config for ${site} with ${adUnitsForSite.length} ad units`
+  );
 }
 
-console.log(`\n[v2] Successfully generated ${results.length} site configurations`);
-console.log(`[v2] Configs saved to: ${configDir}`);
+console.log(`\n[v3] Successfully generated ${results.length} site configurations`);
+console.log(`[v3] Configs saved to: ${configDir}`);
 results.forEach((r) => {
   console.log(`  - ${r.site} → ${r.filename} (${r.adUnitCount} units)`);
 });
